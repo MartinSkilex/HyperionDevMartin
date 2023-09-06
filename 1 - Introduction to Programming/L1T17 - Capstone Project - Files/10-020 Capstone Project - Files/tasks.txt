@@ -1,0 +1,7 @@
+admin, Register Users with task_manager.py, Use task_manager.py to add the usernames and passwords for all team members that will be using this program., 10 Oct 2019, 20 Oct 2019, No
+admin, Assign initial tasks, Use task_manager.py to assign each team member with appropriate tasks, 10 Oct 2019, 25 Oct 2019, No
+tinevimbo, Coding, Ludo playing, 2023-07-31, 2023-08-01, No
+
+sine, Martin, The man I love, 2023-07-31, 2023-09-02, No
+
+tinevimbo, Loki is, Thor's Brother, 2023-07-31, 2023-08-01, No
