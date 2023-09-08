@@ -1,5 +1,6 @@
 def get_user_input():
     try:
+        # Get user input as an integer
         return int(input("Please enter a number (-1 to quit): "))
     except ValueError:
         print("Invalid input. Please enter a valid number.")
@@ -7,8 +8,8 @@ def get_user_input():
 
 def main():
     # Initializing variables
-    sum = 0
-    counter = 0
+    sum = 0  # Initialize the sum to zero
+    counter = 0  # Initialize the counter to zero
 
     # Getting user input using the function
     user_input = get_user_input()
@@ -31,6 +32,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
     
