@@ -1,0 +1,72 @@
+Pseudo code
+
+Algorithm 1
+
+set largest = 0
+While true:
+	request user to input a positive value
+	
+	if number is 0
+		exit loop
+	if number is greater than largest
+		set number to the largest number entered
+ 
+Output largest number entered
+
+Algorithm 2
+
+set first_name to request user to input name.
+	
+	print first_name + "Hello World"
+
+
+Algorithm 3
+
+set total to 0
+set counter to 0
+while true:
+	request user to input an integer
+    if input is 0, 
+		exit loop
+	add input to total
+	increase counter
+ 
+ if counter not 0:
+	set average to total divide by counter
+	Output average
+ else:
+	Output "No integer were entered"
+
+
+Algorithm 4
+
+Read grocery_list from input and store it in a list
+
+Read purchased_items from input and store it in a list
+
+Sort the grocery_list in alphabetically
+
+print grocery_list
+
+Create an empty list called left_to_buy
+
+For each item in grocery_list:
+    If the item is not in purchased_items
+		add it to left_to_buy
+		sort left_to_buy alphabetically
+	
+For each item in left_to_buy:
+    Print the item
+
+Algorithm 5
+
+request user to enter any integer and set it as x
+request user to enter any integer and set it as y
+
+set S to x+y
+set A to S/2
+set P to x*y
+
+print S
+print A
+print P
