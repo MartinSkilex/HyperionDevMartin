@@ -1,28 +1,38 @@
-#initailising variables
-sum  = 0
-counter = 0
+def get_user_input():
+    try:
+        # Get user input as an integer
+        return int(input("Please enter a number (-1 to quit): "))
+    except ValueError:
+        print("Invalid input. Please enter a valid number.")
+        return get_user_input()
 
-#geting user input as an integer
-user_input = int(input("Please enter a number(-1 to quit): "))
+def main():
+    # Initializing variables
+    sum = 0  # Initialize the sum to zero
+    counter = 0  # Initialize the counter to zero
 
-# setting loop to execute until -1 is entered
-while user_input != -1:
+    # Getting user input using the function
+    user_input = get_user_input()
 
-    #adding previously entered number to sum
-    sum += user_input
-    #increament counter
-    counter += 1
-    #asking for second input from user
-    user_input = int(input("Please enter a number(-1 to quit): "))
+    # Setting up a loop to execute until -1 is entered
+    while user_input != -1:
+        # Adding the previously entered number to sum
+        sum += user_input
+        # Incrementing the counter
+        counter += 1
+        # Asking for the next input from the user
+        user_input = get_user_input()
 
-  
-#calculating the average  
-if user_input == -1:
-        
-    average = sum/counter
-    print("The average of the entered values is: ",average)
-else:
-    print("No value was entered")
-    
+    # Calculating the average if values were entered
+    if counter > 0:
+        average = sum / counter
+        print("The average of the entered values is:", average)
+    else:
+        print("No value was entered")
+
+if __name__ == "__main__":
+    main()
+
+
 
     
